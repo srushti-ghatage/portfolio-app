@@ -22,23 +22,20 @@ class App extends Component {
       <div>
         <img src={ProfilePic} alt="ProfilePic" className="ProfilePic"/>
         <h1>Hello there!</h1>
-        <p>My name is Srushti. I'm a software engineer.</p>
-        <p>I'm always looking forword to working on meaningful projects.</p>
+        <p style={{margin:"0px"}}>My name is Srushti. I'm a software engineer. <br/>I'm always looking forword to working on meaningful projects.</p>
         {this.state.displayBio && (
           <div>
-            <p>I live in Milpitas, California.</p>
-            <p>
+            <p>I live in Milpitas, California.<br/>
               I am pursuing master's in Information Systems at Northeastern
               University.
-            </p>
-            <p>
+            <br/>
               I like to paint, sketch and decorate my room with paintings and
               flowers.
             </p>
           </div>
         )}
         <div>
-          <button onClick={this.show}>
+          <button className="button-show" onClick={this.show}>
             {this.state.displayBio ? "Show less..." : "Read more..."}
           </button>
         </div>

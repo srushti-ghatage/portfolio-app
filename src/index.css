@@ -27,3 +27,28 @@ h1, h2, h3, h4, h5{
   height: 200px;
   border-radius: 100px;
 }
+#role{
+  padding: 0px;
+  font-size: larger;
+  margin-right: 5px;
+
+}
+#location{
+  padding: 0px;
+  font-size: large;
+  margin: 5px;
+}
+#duration{
+  padding: 0px;
+  font-size: large;
+  margin: 5px;
+}
+#resp{
+  text-align: left;
+  float: left;
+  font-size: large;
+  margin: 5px;
+}
+.button-show{
+  margin-top: 10px;
+}
