@@ -13,7 +13,7 @@ const WORK_EX = [
         id: 2,
         role: "Associate Software Engineer",
         location: "Pune, India",
-        duration: "Sepetember 2019 - June 2020",
+        duration: "September 2019 - June 2020",
         responsibilities: "Worked on developing and maintaining the company’s legacy product - ICM-Contract Lifecycle Management. Implemented customizations for client's ICM accounts, applying build patches to the legacy product. Spearheaded the customization of the ICI CRM application, significantly improving its capabilities in managing complex insurance policies for a USA-based reinsurance company.",
         image: iCertis
     }

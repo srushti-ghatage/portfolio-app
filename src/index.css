@@ -47,8 +47,40 @@ h1, h2, h3, h4, h5{
   text-align: left;
   float: left;
   font-size: large;
-  margin: 5px;
+  margin: px;
 }
 .button-show{
   margin-top: 10px;
+}
+
+#university{
+  padding: 0px;
+  font-size: larger;
+  margin-right: 5px;
+}
+
+#course{
+  padding: 0px;
+  font-size: large;
+  margin-right: 5px;
+}
+
+.button-show{
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#subject{
+  text-align: left;
+  float: left;
+  font-size: large;
+  margin: px;
 }

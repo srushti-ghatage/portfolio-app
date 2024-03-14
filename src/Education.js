@@ -1,35 +1,40 @@
 import React, { Component } from "react";
-import WORK_EX from "./data/workExperience";
+import EDUCATION from "./data/education";
 
-class WorkEx extends Component {
+class Edu extends Component {
   render() {
-    const { role, location, duration, responsibilities, image } =
-      this.props.workExperience;
+    const { university, course, duration, subject, image } =
+      this.props.education;
     return (
       <div style={{ display: "flex", margin: 10, textAlign: "left" }}>
         <div style={{padding: "30px"}}>
           <img
             src={image}
             alt="profile"
-            style={{ width: 200, height: 180, paddingRight: "10px", objectFit: "contain" }}
+            style={{
+              width: 200,
+              height: 180,
+              paddingRight: "10px",
+              objectFit: "contain",
+            }}
           />
         </div>
         <div>
-          <h2 id="role">{role}</h2>
-          <h3 id="location">{location}</h3>
+          <h2 id="university">{university}</h2>
+          <h3 id="course">{course}</h3>
           <h3 id="duration">{duration}</h3>
-          <p id="resp">{responsibilities}</p>
+          <p id="subject">{subject}</p>
         </div>
       </div>
     );
   }
 }
 
-class WorkExperience extends Component {
+class Education extends Component {
   render() {
     return (
       <div>
-        <h2>Professional Experience</h2>
+        <h2>Education</h2>
         <div
           style={{
             display: "flex",
@@ -38,8 +43,8 @@ class WorkExperience extends Component {
             flexDirection: "column",
           }}
         >
-          {WORK_EX.map((WORK_EX) => {
-            return <WorkEx key={WORK_EX.id} workExperience={WORK_EX} />;
+          {EDUCATION.map((item) => {
+            return <Edu key={item.id} education={item} />;
           })}
         </div>
       </div>
@@ -47,4 +52,4 @@ class WorkExperience extends Component {
   }
 }
 
-export default WorkExperience;
+export default Education;

@@ -8,20 +8,23 @@ const PROJECTS = [
     title: "Online Recycling Shopping App",
     description:
       "Built a highly scalable and adaptable online application based.",
-    image: project1,
+    techstack: "TechStack: Mongo DB, JavaScript, React, Redux, REST API, Express, Node.js",
+    image: project1
   },
   {
     id: 2,
     title: "Child Support Network",
     description:
       "Built a desktop Child Support Network Application.",
-    image: project2,
+      techstack: "TechStack: Core Java, Java Spring",
+    image: project2
   },
   {
     id: 3,
     title: "Weather React Application",
     description: "Built a weather forcasting application using React",
-    image: project3,
+    techstack: "TechStack: Mongo DB, JavaScript, React, Redux, REST API, Express, Node.js",
+    image: project3
   },
 ];
 
